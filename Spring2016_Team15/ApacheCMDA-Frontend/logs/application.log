@@ -1,0 +1,27 @@
+2016-05-07 04:41:30,881 - [INFO] - from play in pool-4-thread-4 
+Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+
+2016-05-07 04:42:06,869 - [INFO] - from play in play-internal-execution-context-1 
+datasource [jdbc:h2:file:data/db;DB_CLOSE_DELAY=-1] bound to JNDI as DefaultDS
+
+2016-05-07 04:42:07,120 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:h2:file:data/db
+
+2016-05-07 04:42:08,416 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-05-07 04:42:09,548 - [INFO] - from application in play-akka.actor.default-dispatcher-4 
+http://localhost:9034/users/getFriendRequests/userId/119
+
+2016-05-07 04:42:20,020 - [INFO] - from application in play-akka.actor.default-dispatcher-4 
+http://localhost:9034/mail/getInbox/119/json
+
+2016-05-07 04:42:39,657 - [INFO] - from application in play-akka.actor.default-dispatcher-2 
+http://localhost:9034/workflow/getTimeline/119/offset/0/json
+
+2016-05-07 04:42:39,850 - [INFO] - from application in play-akka.actor.default-dispatcher-10 
+http://localhost:9034/users/getFriendRequests/userId/119
+
+2016-05-07 04:42:39,874 - [INFO] - from application in play-akka.actor.default-dispatcher-10 
+http://localhost:9034/mail/getInbox/119/json
+

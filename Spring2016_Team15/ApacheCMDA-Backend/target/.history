@@ -1,0 +1,5 @@
+mysql -u root -p
+service mysql start
+./ativator run
+./activator run
+docker exec -it `docker ps -q` /bin/bash
